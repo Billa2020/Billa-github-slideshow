@@ -20,10 +20,8 @@ if [ -f ".ruby-version" ] && [ -z "$(rbenv version-name 2>/dev/null)" ]; then
   }
 fi
 
-if [ -f "Gemfile" ]; then
-  echo "==> Installing gem dependencies…"
-  bundle install --no-cache --quiet --without production
-fi
+
+git Do what you want to do !!
 
 git submodule update --init
 
